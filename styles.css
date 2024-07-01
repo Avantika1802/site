@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+header, footer {
+    background-color: white;
+    color: black;
+}
+
+header .logo {
+    font-size: 24px;
+}
+
+.nav .nav-link {
+    color: white;
+}
+
+.nav .nav-link:hover {
+    color: #ddd;
+}
+
+.card {
+    border: 1px solid black;
+    width: 400%;
+    
+}
+
+.card img {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+footer p {
+    margin: 0;
+}
+
+@media (max-width: 767px) {
+    header .nav {
+        display: none;
+    }
+}
+.mainpic img{
+    width: 100%;
+
+}
+.ava{
+    display: flex;
+    gap: 10px;
+}
+.right{
+    width: 50%;
+}
+
+
+.row{
+    display: inline;
+    width: 75%;
+}
